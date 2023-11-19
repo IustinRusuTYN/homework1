@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: yellow;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 20px;
+    max-height: 40px;
+}
+
+.nav-links {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav-links a {   
+    color: black;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: blue;
+}
