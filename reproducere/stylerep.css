@@ -1,17 +1,31 @@
 body, html {
     margin: 0;
-    padding: 0;
+    padding: 20px;
     height: 100%;
 }
 
 .parent {
     background-color: #d3d3d3;
-    padding: 20px;
-    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 500px;
+    border: dotted 5px red;
+}
+
+.parent h2 {
+    margin: 0;
+    padding: 0;
+    align-self: center;
+    margin-bottom: 175px;
+    margin-right: 5px;
 }
 
 .child {
-    margin: 20px;
+    margin: 0;
     padding: 20px;
     text-align: center;
 }
@@ -21,14 +35,31 @@ body, html {
     padding: 0;
 }
 
+.child1, .child2, .child3 {
+    width: 150px;
+    height: 150px;
+    border: dotted 3px darkred;
+}
+
 .child1 {
-    background-color: #00ff00;
+    background-color: lightgreen;
+    position: absolute;
+    top: 0;
+    left: 0%;
 }
 
 .child2 {
-    background-color: #ff99cc;
+    background-color: lightpink;
+    position: absolute;
+    top: 23%;
+    left: 25%;
+    z-index: 2;
 }
 
 .child3 {
-    background-color: #ffff99;
+    background-color: lightyellow;
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    z-index: 1;
 }
