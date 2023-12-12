@@ -1,0 +1,179 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+.header {
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    margin-bottom: 10px;
+}
+
+.header p {
+    margin-top: 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.ceas1 {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.ceas2 {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.ceas1 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.ceas1 h2 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.ceas1 p {
+    color: #777;
+}
+
+.ceas1 button {
+    background-color: #3498db;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ceas1 button:hover {
+    background-color: #2980b9;
+}
+
+.ceas2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.ceas2 h2 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.ceas2 p {
+    color: #777;
+}
+
+.ceas2 button {
+    background-color: #3498db;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ceas2 button:hover {
+    background-color: #2980b9;
+}
+
+
+/* ///////////  Leyout 2   \\\\\\\\\\\\ */
+
+.middle img {
+    height: 480px;
+    width: 640px;
+    align-self: center;
+}
+
+.layout2 {
+    display: flex;
+    background-color: #ccc;
+    
+    flex-direction: row;
+    height: 1080px;
+    width: 1200px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+    height: 560px;
+    gap: 10px;
+}
+
+.vertical {
+    background-color: aqua;
+    height: 280px;
+    width: 280px;
+}
+
+.middle {
+    background-color: blue;
+    display: flex;
+    height: 560px;
+    width: 740px;
+    flex-direction: column;
+}
+
+.middle h3 {
+   margin-left: 20px;
+}
+
+.tall {
+    background-color: green;
+    height: 560px;
+    width: 150px;
+    order: 1;
+    
+}
+
+.tiles {
+    background-color: yellow;
+    width: 280px;
+    height: 270px;
+    
+}
+
+.wide {
+    background-color: lightcoral;
+    width: 990px;
+    height: 500px;
+    order: 2;
+    
+}
