@@ -1,0 +1,104 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+  
+  .container {
+    background-color: bisque;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .row1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .row2 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  header {
+    background-color: red;
+    height: 50px;
+    flex: 1;
+  }
+  
+  .aside {
+    background-color: yellow;
+    height: 550px;
+    width: 33%;
+  }
+  
+  .main {
+    background-color: rgb(82, 193, 230);
+    height: 550px;
+    width: 100%;
+  }
+  
+  .aside2 {
+    background-color: pink;
+    display: none;
+  }
+  
+  footer {
+    background-color: greenyellow;
+    height: 50px !important;
+    flex: 1;
+  }
+  
+  @media (max-width: 720px) {
+    .container {
+      background-color: bisque;
+      height: 600px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .row1 {
+      background-color: bisque;
+    }
+    .row1 header {
+      background-color: lightcoral;
+      height: 50px;
+      order: 1;
+    }
+    .row2 {
+      background-color: bisque;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .row2 .aside {
+      display: block;
+      background-color: lightgoldenrodyellow;
+      height: 50px;
+      width: 100%;
+      order: 3;
+    }
+    .main {
+      background-color: lightblue;
+      width: 100%;
+      height: 400px;
+      order: 2;
+      overflow: hidden;
+    }
+    .aside2 {
+      display: block;
+      background-color: pink;
+      height: 50px;
+      width: 100%;
+      order: 4;
+    }
+    footer {
+      background-color: lightgreen;
+      height: 50px;
+      order: 5;
+    }
+  }/*# sourceMappingURL=mediaqstyle.css.map */
