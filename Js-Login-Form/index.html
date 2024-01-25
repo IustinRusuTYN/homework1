@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Js Events Login Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        
+        <form id="formLogin">
+          <div class="input-group">
+            <label for="username">Username ↓</label>
+            <div class="input-container">
+            <input type="text" id="username" name="username" required>
+            <span class="indicator" id="usernameIndicator"></span>
+        </div>
+          </div>
+    
+          <div class="input-group">
+            <label for="password">Password ↓</label>
+            <div class="input-container">
+                <input type="password" id="password" name="password" required>
+                <span class="indicator" id="passwordIndicator"></span>
+        </div>
+          </div>
+    
+          <button type="submit" id="loginButton" disabled>Login</button>
+
+      <p class = "noacc">Don't have an account? <a href="https://theuselessweb.com/">Sign up Here!</a></p>
+
+    </form>
+</div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

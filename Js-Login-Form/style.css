@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    margin-top: 35px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-container {
+    position: relative;
+  }
+  
+  input {
+    width: 200px;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .indicator {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 18px;;
+    font-size: 12px;
+    line-height: 1;
+    text-align: left;
+  }
+  
+  .indicator.valid {
+    background-color: #fff;
+    color: #4CAF50;
+  }
+  
+  .indicator.error {
+    background-color: #fff;
+    color: red;
+  }
+  
+  button {
+    cursor: pointer;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+
+  .noacc {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .noacc:hover {
+    text-decoration: underline;
+  }
+
+  .noacc a {
+    color: rgb(15, 224, 214);
+    text-decoration: none;
+  }
+
+  .noacc a:hover {
+    color: blue;
+  }
